@@ -4,5 +4,7 @@ It is powered by <a href="https://www.ipify.org/">Ipify API</a>
 <br>
 It's easy to use. Just insert the HTML files into somewhere and you're done!
 <br>
-You just need to give a copyright
+You just need to give a copyright<br>
 Recommended Server: Apache And Ngnix
+<br>
+<a href="https://restaurantcontroller.github.io/findmyip/">Try It!</a>
