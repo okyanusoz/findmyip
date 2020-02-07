@@ -5,3 +5,4 @@ It is powered by <a href="https://www.ipify.org/">Ipify API</a>
 It's easy to use. Just insert the HTML files into somewhere and you're done!
 <br>
 You just need to give a copyright
+Recommended Server: Apache And Ngnix
