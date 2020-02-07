@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>FindMyIp - Get Your IP Address</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="/WhatIsMyIp">FindMyIp</a>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="/WhatIsMyIp">Home</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="ipv6addr">IPV6 Address</a>
+</li>
+</ul>
+</nav>
+<br>
+<br>
+<div class="text-center">
+    <h1>What Is My Ip?</h1>
+    <br>
+    Curious about your IP? It is here.
+    <br>
+    <b>Your IPV4 Address: </b><label id="ip-address">Loading...</label>
+    <br>
+    <b>Powered by Ipify API</b>
+</div>
+<script>
+function getip(ipaddr){
+    document.getElementById("ip-address").innerHTML = ipaddr.ip;
+}
+</script>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getip"></script> 
+</body>
+</html>
