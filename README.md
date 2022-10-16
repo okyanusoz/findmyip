@@ -1,10 +1,9 @@
-# FindMyIp
-FindMyIp is an HTML project that retrieves the user's ipv4 and ipv6 address.<br>
-It is powered by <a href="https://www.ipify.org/">Ipify API</a>
-<br>
-It's easy to use. Just insert the HTML files into somewhere and you're done!
-<br>
-You just need to give a copyright<br>
-Recommended Server: Apache And Ngnix
-<br>
-<a href="https://restaurantcontroller.github.io/findmyip/">Try It!</a>
+# No longer maintained
+
+I wrote this project in 2020, a time when my frontend skills weren't really good in any way.
+
+2 years and a ton of learning later, this feels ridiculous.
+
+This project will still be up on GitHub for historical reasons, but will be archived and read-only.
+
+October 2022
